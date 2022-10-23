@@ -25,6 +25,68 @@ public class AritNatIter {
         }
         return m;
     }
+	public static int max(int x , int y){
+		/*
+			creazione della funzione max con parametri x e y (es 5,10)
+		*/
+		int max = 0;//max = 0 
+		if(x>y){
+			/*se la x è più grande della y */
+			max = x;// allora max = x
+		}
+		else{
+			/*
+			altrimenti
+			*/
+			max = y;//max = y
+		}
+		return max;//restituisce il valore della variabile max
+	}
+	public static int sommatoria(int x){
+		/*
+		creazione della funzione sommatoria con parametri x (es 5)
+		*/
+		int i = 0;// variabile contatore
+		int sommatoria=0;//una variabile sommatoria per fare la sommatoria
+		while(i<=x){
+			/*
+			ciclo while che parte da 0 e arriva al parametro di x
+			*/
+			sommatoria+=i;//operazione per la sommatoria
+			i++;//Incremento della i
+		}
+		return sommatoria;//restituisce il valore della variabile sommatoria
+	}
+	public static int fattoriale(int x){
+		/*
+		creazione della funzione fattoriale con parametri x (es 5)
+		*/
+		int i = 0;//variabile contatore = 0
+		int fattoriale= 1;//variabile fat per salvare il calcolo del fattoriale
+		while (i<x){
+			/*
+			ciclo while per dire che deve arrivare al valore messo in questo caso 5
+			*/
+			i++;//contatore incrementato
+			fattoriale = fattoriale*i;//Operazione per il fattoriale	
+		}
+		return fattoriale;//restituisce il valore della variabile del fattoriale
+	}
+	public static int potenza(int x, int y){
+		/*
+		funzione chiamata potenza con parametri x e y che riporterà i valori inseriti(7,5)
+		*/
+		int i = 0;//contatore che parte da 0
+		int potenza = 1;// variabile potenza che è uguale a 1 
+		while(i<y){
+			/*
+			ciclo while mentre la i non raggiunge la y cioè 5 allora
+			*/
+			potenza = potenza *x;//fai l'operazione della potenza
+			i++;//incrementa di uno il risultato
+		}
+		return potenza;//restituisce il valore della variabile della potenza
+	}
 
     public static void main(String[] args) {
         // Test della somma
@@ -52,5 +114,10 @@ public class AritNatIter {
 
         // ESERCIZIO: verificare associatività moltiplicazione con alcuni esempi di test
         //            (x*y)*z == x*(y*z)
+		
+		System.out.println("Il valore massima tra 5 e 10 e' : "+max(5,10));
+		System.out.println("La sommatoria di 5 e' : "+sommatoria(5));
+		System.out.println("Il fattoriale di 5 e' : "+fattoriale(5));
+		System.out.println("La potenza di 7^5 e' : "+potenza(7,5));
     }
 }
