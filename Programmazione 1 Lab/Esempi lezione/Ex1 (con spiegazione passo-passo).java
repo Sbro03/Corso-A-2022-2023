@@ -29,8 +29,8 @@ Quindi so quanto vale F(1):
 Ora posso calcolare F(2)
     infatti F(2) = F(1) + 1 = 1 + 1 = 2
 Quindi conosco F(3):
-    infatti F(3) = F(2) + 1 = (F(1)+ 1) + 1 = 2 + 1 = 3
+    infatti F(3) = F(2) + 1 = (F(1) + 1) + 1 = 2 + 1 = 3
 Infine ottengo F(4):
-    infatti F(4) = F(3) + 1 = (F(2)+ 1) + 1 = F(F(F(1)) + 1) + 1 = 3 + 1 = 4
+    infatti F(4) = F(3) + 1 = (F(2) + 1) + 1 = F(F(F(1) + 1) + 1) + 1 = 3 + 1 = 4
     
 */
