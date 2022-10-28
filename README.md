@@ -16,14 +16,14 @@ Ogni file sarà commentabile in caso di dubbi e/o correzioni.
 ### GUIDA ALL'UTILIZZO
 Prima di tutto, create un account se non lo avete.
 - Se scaricate l'app Desktop di GitHub, l'utilizzo è molto intuitivo:
-1. una volta fatto l'accesso dall'app, tutto ciò che dovrete fare è (in alto a sinistra) **File** > **Clone repository...** > _inserire il link_ https://github.com/LuisBarrios03/Corso-A-2022-2023 
-2. a questo punto nel vostro pc è stata creata una cartella contenente questa repository
-3. per poter aggiungere e/o modificare file, vi basterà fare tutto all'interno della cartella sovracitata, come fareste di norma, poi aprire l'app GitHub Desktop
-4. l'app vi chiederà di inserire un "summary", cioè scrivere che operazione state facendo (a beneficio di chi vedrà la modifica), ad es. "Aggiunto file nomefile" oppure "aggiornato file ..." e cliccare su `Commit to main`
-5. ora vi basterà premere `Ctrl` `Shift` `P`
-- se preferite non scaricare l'app e volete inserire file ad una cartella già esistente, oppure semplicemente consultare/scaricare file:
+1. adestra in verdedestra trovate il bottone `Code` > `Open with GitHub Desktop` per installare l'app
+2. una volta fatto l'accesso dall'app, tutto ciò che dovrete fare è (in alto a sinistra) **File** > **Clone repository...** > _inserire il link_ https://github.com/LuisBarrios03/Corso-A-2022-2023 
+3. a questo punto nel vostro pc è stata creata una cartella contenente questa repository
+4. per poter aggiungere e/o modificare file, vi basterà fare tutto all'interno della cartella sovracitata, come fareste di norma, poi aprire l'app GitHub Desktop
+5. l'app vi chiederà di inserire un "summary", cioè scrivere che operazione state facendo (a beneficio di chi vedrà la modifica), ad es. "Aggiunto file nomefile" oppure "aggiornato file ..." e cliccare su `Commit to main`
+6. ora vi basterà premere `Ctrl` `Shift` `P`
+- se preferite non scaricare l'app e volete semplicemente consultare/scaricare file:
 1. Aprite la cartella che vi interessa
-2. a destra ci sarà il bottone `Add file` > `Create new file` oppure `Upload files`
-3. sarà richiesto di inserire un "summary", cioè scrivere che operazione state facendo (a beneficio di chi vedrà la modifica), ad es. "Aggiunto file nomefile" oppure "aggiornato file ..." e cliccare su `Commit to main`
+2. a destra ci sarà il bottone `Code` > `Download zip`
 
 **BUON LAVORO A TUTTI!** :sparkling_heart:
