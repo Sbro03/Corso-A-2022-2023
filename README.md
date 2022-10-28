@@ -16,7 +16,7 @@ Ogni file sarà commentabile in caso di dubbi e/o correzioni.
 ### GUIDA ALL'UTILIZZO
 Prima di tutto, create un account se non lo avete.
 Se scaricate l'app Desktop di GitHub, l'utilizzo è molto intuitivo:
-1. una volta fatto l'accesso dall'app, tutto ciò che dovrete fare è (in alto a sinistra) **File** > **Clone repository...** > _inserire il link https://github.com/LuisBarrios03/Corso-A-2022-2023 _
+1. una volta fatto l'accesso dall'app, tutto ciò che dovrete fare è (in alto a sinistra) **File** > **Clone repository...** > inserire il link https://github.com/LuisBarrios03/Corso-A-2022-2023 
 2. a questo punto nel vostro pc è stata creata una cartella contenente questa repository
 3. per poter aggiungere e/o modificare file, vi basterà fare tutto all'interno della cartella sovracitata, come fareste di norma, poi aprire l'app GitHub Desktop
 4. l'app vi chiederà di inserire un "summary", cioè scrivere che operazione state facendo (a beneficio di chi vedrà la modifica), ad es. "Aggiunto file nomefile" oppure "aggiornato file ..." e cliccare su **Commit to main**
