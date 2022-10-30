@@ -10,13 +10,11 @@ public class Ciao {
         do {
             System.out.print("Inserisci una stringa: ");
             s = sc.next();
-
             if (!s.equals(ciao))
                 uguali = false;
-
             i++;
         } while (i <= 5);
-
         System.out.println(uguali);
     }
+    
 }
