@@ -17,12 +17,13 @@ public class SommeCifre {
 		int N = input.nextInt();
 		int s = 0;
 		
-		if(N<1 || N>9)
+		if (N < 1 || N > 9)
 			System.out.println("Inserimento non valido.");
 		
 		for(int i = 1; i <= N; i++)
 			s = s + numeroCifre(i);
-		
+
 		System.out.println("Risultato = " + s);
 	}
+	
 }
