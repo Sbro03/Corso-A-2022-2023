@@ -3,7 +3,10 @@ public class Freccia{
 	public static void main (String [] args){
 		Scanner input = new Scanner (System.in);
 		System.out.println("Inserisci il numero per creare la freccia : ");
-		int numero = input.nextInt();
+		int numero = input.nextInt();//numero inserito per le righe della freccia
+		stampaRiga(numero);//visualizzazione in output della funzione stampaRiga
+	}
+	public static void stampaRiga(int numero){
 		int i =0;//riga
 		int j = 0;//colonna
 		while(i<numero){
@@ -28,7 +31,7 @@ public class Freccia{
 			}
 		}
 		//i = 5 j = 0
-		while(i!=0){
+		while(i>=0){
 			/*
 			Mentre la i non è diversa da 0 allora:
 			*/
@@ -49,6 +52,5 @@ public class Freccia{
 				i--;//decrementa la riga di 1
 			}
 		}
-		
 	}
 }
