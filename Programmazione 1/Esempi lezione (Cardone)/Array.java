@@ -11,7 +11,7 @@ public class Array {
         return x;
     }
 
-    public static boolean uguali(int[] x, int[] y){
+    public static boolean uguali(int[] x, int[] y) {
         boolean b = false;
         if(x.length == y.length) {
             b = true;
