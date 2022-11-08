@@ -6,16 +6,19 @@ public class StringaMaxRicorsiva{
 	public static String MaxMin(){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Inserisci il numero :");
-		String stringa = input.nextLine();
+		String stringa = input.nextLine();//Inserminto da tastiera 
 		if(stringa==""){
-			return "";
+			/*se quando non scrivo allora*/
+			return "";//Restituisci vuoto e termini il programma
 		}
-		String function = MaxMin();
+		String function = MaxMin();//function è uguale a MaxMin
 		if(function.length()<stringa.length()){
-			return stringa;
+			/*confronto tra le stringhe inserite*/
+			return stringa;//ritorna stringa
 		}
 		else{
-			return function;
+			/*altrimenti */
+			return function;//torna l'antecedente
 		}
 	}
 	
