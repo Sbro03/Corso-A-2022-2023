@@ -9,7 +9,7 @@ Ogni file sarà commentabile in caso di dubbi e/o correzioni.
 
 ## INDICE
 - [Programmazione 1](https://github.com/LuisBarrios03/Corso-A-2022-2023.git)
-- [Logica]
+- [Logica](https://github.com/LuisBarrios03/Corso-A-2022-2023/tree/main/Logica)
 - [Matematica discreta](https://github.com/LuisBarrios03/Corso-A-2022-2023/tree/main/Matematica%20Discreta)
 - [Calcolo matriciale e ricerca operativa](https://github.com/LuisBarrios03/Corso-A-2022-2023/tree/main/CalcoloMatriciale_RicercaOperativa)
 
