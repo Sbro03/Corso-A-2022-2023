@@ -77,12 +77,14 @@ public class MetodiRicorsivi {
     }
 
     public static boolean palindromaRic(String s, int i){
-        if (s.charAt(i) == s.charAt(s.length()-1-i)){
-            if (i == s.length()/2)
+        if (i > s.length()/2)
                 return true;
-            return true && palindromaRic(s, i+1);
+        else {
+            if(s.charAt(i) == s.charAt(s.length()-1-i))
+                return true && palindromaRic(s, i+1);
+            else
+                return false;
         }
-        return false;
     }
 
     /*  ESERCIZIO 4 */
