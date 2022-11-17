@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class MetodiRicorsivi{
+	/*ATTENZIONE ESERCIZIO 6 NON FINITO */
 	public static void main(String [] args){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Inserisci la stringa: ");
