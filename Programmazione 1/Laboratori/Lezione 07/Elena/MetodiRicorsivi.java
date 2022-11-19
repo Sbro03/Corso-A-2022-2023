@@ -120,7 +120,7 @@ public class MetodiRicorsivi {
         return stringaInversaR(in, i+1).concat(in.substring(i, i+1));
     }
 
-    /*  ESERCIZIO 7 (ammetto di aver avuto molta difficoltà ed essermi aiutata con le soluzioni)*/
+    /*  ESERCIZIO 6 (ammetto di aver avuto molta difficoltà ed essermi aiutata con le soluzioni)*/
     public static String eliminaCarattere(String s, int i) {
         return eliminaCarattereR(s, i, 0);
     }
